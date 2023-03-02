@@ -1,0 +1,42 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px;
+    border-bottom: 5px solid var(--color-bg);
+}
+
+.services__button {
+    padding: 20px 10px;
+    background-color: #d23c79;
+    color: #ffffff;
+    border: 5px solid #d23c79;
+    font-size: 2rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover {
+        background-color: var(--color-bg);
+    }
+}
+
+.selected{
+    background-color: var(--color-bg);
+}
+
+.total {
+    margin: 30px;
+    padding: 20px 10px;
+    background-color: #d23c79;
+    color: #ffffff;
+    border: 5px solid #d23c79;
+    font-size: 2rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

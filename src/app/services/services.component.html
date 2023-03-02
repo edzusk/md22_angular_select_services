@@ -1,0 +1,30 @@
+
+<section class="section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col">
+                <div class="services">
+                    <button class="services__button"  
+                    *ngFor="let service of services"
+                    [ngClass]="{'selected': service.selected}"
+                    (click)="onSelect(service)">
+                        <span>
+                            {{service.name}}
+                        </span> 
+                        <span>
+                            ${{service.value}}
+                        </span>
+                      </button>
+                </div>
+                <div class="total">
+                    <span>Total:</span>
+                    <span >
+                        ${{selectedServices}}
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+

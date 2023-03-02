@@ -1,0 +1,15 @@
+:host{
+    --color-bg: #5c9db1;  
+}
+
+
+
+.header {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-bg);
+    margin: 0 auto;
+}
