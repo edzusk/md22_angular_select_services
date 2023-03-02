@@ -1,8 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 :host{
     --color-bg: #5c9db1;  
 }
-
-
 
 .header {
     width: 100%;
@@ -12,4 +11,10 @@
     align-items: center;
     background-color: var(--color-bg);
     margin: 0 auto;
+}
+
+.hedding{
+    font-family: 'Lobster', cursive;
+    color: #ffffff;
+    font-size: 3rem;
 }
